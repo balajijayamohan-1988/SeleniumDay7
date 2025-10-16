@@ -41,7 +41,7 @@ public class Day7_U0701 {
 	//to make donwcast datatype child notequal to parent
 	TakesScreenshot takeScreenShot = (TakesScreenshot)driver;
 	File screenshotAs = takeScreenShot.getScreenshotAs(OutputType.FILE);	
-	File screensDay7_U0701 = new File("E:\\Java selenium automation testing\\Green Technology\\GT-Selenium\\SeleniumDay7\\Day7_U0701.png");
+	File screensDay7_U0701 = new File("E:\\Java selenium automation testing\\Green Technology\\GT-Selenium\\SeleniumDay7\\Day7_U0701_ScreenShot.png");
 	FileUtils.copyFile(screenshotAs,screensDay7_U0701);
 	
 	}
